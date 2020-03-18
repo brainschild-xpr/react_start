@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './components/class.components/app.comp'
+import App from './components/class.components/app.class'
 // import Table from './components/table.component'
 import './index.css';
 
