@@ -10,6 +10,9 @@
     "react-dom": "^16.13.0",
     "react-scripts": "3.4.0"
   },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -18,7 +21,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "eslintConfig": { 
+  "eslintConfig": {
     "extends": "react-app"
   },
   "homepage": "https://brainschild-xpr.github.io/react_start",
