@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Table from './table.class'
 import Form from './form.class'
+import Shopping from './shopping.class'
+import Example from '../hooks/example.comp'
 
 
 // const name = 'Martin'
@@ -46,7 +48,7 @@ class App extends Component {
     handleSubmit = character => {
         this.setState({ characters: [...this.state.characters, character] })
     }
-
+    
     render() {
         const { characters } = this.state
         return (
@@ -56,7 +58,18 @@ class App extends Component {
                     removeCharacter={this.removeCharacter}
                 />
                 <Form handleSubmit={this.handleSubmit} />
+                <Shopping />
+                <Example />
             </div>
+            // <div className="shopping-list">
+            //     <h1>Shopping List for {this.props.name}</h1>
+            //     <ul>
+            //         <li>Instagram</li>
+            //         <li>WhatsApp</li>
+            //         <li>Facebook</li>
+            //         <li>Oculus</li>
+            //     </ul>
+            // </div>
         )
     }
 }
