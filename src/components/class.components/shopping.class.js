@@ -9,13 +9,7 @@ class Shopping extends Component {
             <div className="shopping-list">
                 {/* <h1>Shopping List for {name}</h1> */}
                 <ul>
-                    <button
-                        className='square'
-                        onClick={
-                            () => alert('Clicked Instagram')
-                        }>
-                        <li>Instagram</li>
-                    </button>
+                    <li>Instagram</li>
                     <li>WhatsApp</li>
                     <li>Oculus</li>
                 </ul>

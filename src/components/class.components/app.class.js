@@ -48,7 +48,7 @@ class App extends Component {
     handleSubmit = character => {
         this.setState({ characters: [...this.state.characters, character] })
     }
-    
+
     render() {
         const { characters } = this.state
         return (
@@ -58,8 +58,8 @@ class App extends Component {
                     removeCharacter={this.removeCharacter}
                 />
                 <Form handleSubmit={this.handleSubmit} />
-                <Shopping />
-                <Example />
+                {/* <Shopping /> */}
+                {/* <Example /> */}
             </div>
             // <div className="shopping-list">
             //     <h1>Shopping List for {this.props.name}</h1>
